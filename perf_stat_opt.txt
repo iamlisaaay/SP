@@ -1,0 +1,20 @@
+
+ Performance counter stats for './dsp_opt':
+
+         154102620      task-clock                       #    0.992 CPUs utilized             
+                 2      context-switches                 #   12.978 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              3132      page-faults                      #   20.324 K/sec                     
+         490681240      instructions                     #    0.85  insn per cycle            
+         575201352      cycles                           #    3.733 GHz                       
+          70453585      branches                         #  457.186 M/sec                     
+            539499      branch-misses                    #    0.77% of all branches           
+         206626147      L1-dcache-loads                  #    1.341 G/sec                     
+          67775410      L1-dcache-load-misses            #   32.80% of all L1-dcache accesses 
+
+       0.155342315 seconds time elapsed
+
+       0.151117000 seconds user
+       0.004084000 seconds sys
+
+

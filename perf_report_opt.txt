@@ -1,0 +1,435 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 229  of event 'cycles:P'
+# Event count (approx.): 338211992
+#
+# Children      Self  Command  Shared Object         Symbol                                
+# ........  ........  .......  ....................  ......................................
+#
+    99.74%     0.00%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+               _fini
+               _fini
+               |          
+               |--45.47%--_fini
+               |          
+               |--19.91%--_fini
+               |          
+               |--16.24%--_fini
+               |          
+               |--12.09%--_fini
+               |          
+               |--1.49%--_fini
+               |          |          
+               |           --1.11%--asm_exc_page_fault
+               |                     |          
+               |                      --0.71%--exc_page_fault
+               |                                do_user_addr_fault
+               |                                handle_mm_fault
+               |                                __handle_mm_fault
+               |                                do_anonymous_page
+               |                                vma_alloc_folio_noprof
+               |                                alloc_pages_mpol
+               |          
+               |--1.21%--_fini
+               |          asm_exc_page_fault
+               |          exc_page_fault
+               |          |          
+               |           --0.95%--do_user_addr_fault
+               |                     handle_mm_fault
+               |                     __handle_mm_fault
+               |                     do_anonymous_page
+               |                     |          
+               |                      --0.61%--__mem_cgroup_charge
+               |                                charge_memcg
+               |          
+               |--0.90%--_fini
+               |          
+                --0.71%--_fini
+                          asm_exc_page_fault
+                          exc_page_fault
+                          do_user_addr_fault
+                          handle_mm_fault
+                          __handle_mm_fault
+                          do_anonymous_page
+
+    99.74%     0.00%  dsp_opt  libc.so.6             [.] _fini
+            |
+            ---_fini
+               _fini
+               |          
+               |--45.47%--_fini
+               |          
+               |--19.91%--_fini
+               |          
+               |--16.24%--_fini
+               |          
+               |--12.09%--_fini
+               |          
+               |--1.49%--_fini
+               |          |          
+               |           --1.11%--asm_exc_page_fault
+               |                     |          
+               |                      --0.71%--exc_page_fault
+               |                                do_user_addr_fault
+               |                                handle_mm_fault
+               |                                __handle_mm_fault
+               |                                do_anonymous_page
+               |                                vma_alloc_folio_noprof
+               |                                alloc_pages_mpol
+               |          
+               |--1.21%--_fini
+               |          asm_exc_page_fault
+               |          exc_page_fault
+               |          |          
+               |           --0.95%--do_user_addr_fault
+               |                     handle_mm_fault
+               |                     __handle_mm_fault
+               |                     do_anonymous_page
+               |                     |          
+               |                      --0.61%--__mem_cgroup_charge
+               |                                charge_memcg
+               |          
+               |--0.90%--_fini
+               |          
+                --0.71%--_fini
+                          asm_exc_page_fault
+                          exc_page_fault
+                          do_user_addr_fault
+                          handle_mm_fault
+                          __handle_mm_fault
+                          do_anonymous_page
+
+    99.74%     0.00%  dsp_opt  libc.so.6             [.] _fini
+            |
+            ---_fini
+               |          
+               |--45.47%--_fini
+               |          
+               |--19.91%--_fini
+               |          
+               |--16.24%--_fini
+               |          
+               |--12.09%--_fini
+               |          
+               |--1.49%--_fini
+               |          |          
+               |           --1.11%--asm_exc_page_fault
+               |                     |          
+               |                      --0.71%--exc_page_fault
+               |                                do_user_addr_fault
+               |                                handle_mm_fault
+               |                                __handle_mm_fault
+               |                                do_anonymous_page
+               |                                vma_alloc_folio_noprof
+               |                                alloc_pages_mpol
+               |          
+               |--1.21%--_fini
+               |          asm_exc_page_fault
+               |          exc_page_fault
+               |          |          
+               |           --0.95%--do_user_addr_fault
+               |                     handle_mm_fault
+               |                     __handle_mm_fault
+               |                     do_anonymous_page
+               |                     |          
+               |                      --0.61%--__mem_cgroup_charge
+               |                                charge_memcg
+               |          
+               |--0.90%--_fini
+               |          
+                --0.71%--_fini
+                          asm_exc_page_fault
+                          exc_page_fault
+                          do_user_addr_fault
+                          handle_mm_fault
+                          __handle_mm_fault
+                          do_anonymous_page
+
+    45.47%    45.47%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+               _fini
+               _fini
+               _fini
+
+    45.47%     0.00%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+
+    19.91%    19.91%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+               _fini
+               _fini
+               _fini
+
+    19.91%     0.00%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+
+    16.24%    16.24%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+               _fini
+               _fini
+               _fini
+
+    16.24%     0.00%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+
+    12.09%    12.09%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+               _fini
+               _fini
+               _fini
+
+    12.09%     0.00%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+
+     3.11%     0.40%  dsp_opt  [kernel.kallsyms]     [k] asm_exc_page_fault
+            |          
+             --2.72%--asm_exc_page_fault
+                       exc_page_fault
+                       |          
+                        --2.46%--do_user_addr_fault
+                                  handle_mm_fault
+                                  __handle_mm_fault
+                                  do_anonymous_page
+                                  |          
+                                  |--1.27%--vma_alloc_folio_noprof
+                                  |          alloc_pages_mpol
+                                  |          |          
+                                  |           --0.70%--__alloc_frozen_pages_noprof
+                                  |          
+                                   --0.97%--__mem_cgroup_charge
+                                             |          
+                                              --0.61%--charge_memcg
+
+     2.72%     0.00%  dsp_opt  [kernel.kallsyms]     [k] exc_page_fault
+            |
+            ---exc_page_fault
+               |          
+                --2.46%--do_user_addr_fault
+                          handle_mm_fault
+                          __handle_mm_fault
+                          do_anonymous_page
+                          |          
+                          |--1.27%--vma_alloc_folio_noprof
+                          |          alloc_pages_mpol
+                          |          |          
+                          |           --0.70%--__alloc_frozen_pages_noprof
+                          |          
+                           --0.97%--__mem_cgroup_charge
+                                     |          
+                                      --0.61%--charge_memcg
+
+     2.46%     0.00%  dsp_opt  [kernel.kallsyms]     [k] do_user_addr_fault
+            |
+            ---do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               do_anonymous_page
+               |          
+               |--1.27%--vma_alloc_folio_noprof
+               |          alloc_pages_mpol
+               |          |          
+               |           --0.70%--__alloc_frozen_pages_noprof
+               |          
+                --0.97%--__mem_cgroup_charge
+                          |          
+                           --0.61%--charge_memcg
+
+     2.46%     0.00%  dsp_opt  [kernel.kallsyms]     [k] handle_mm_fault
+            |
+            ---handle_mm_fault
+               __handle_mm_fault
+               do_anonymous_page
+               |          
+               |--1.27%--vma_alloc_folio_noprof
+               |          alloc_pages_mpol
+               |          |          
+               |           --0.70%--__alloc_frozen_pages_noprof
+               |          
+                --0.97%--__mem_cgroup_charge
+                          |          
+                           --0.61%--charge_memcg
+
+     2.46%     0.00%  dsp_opt  [kernel.kallsyms]     [k] __handle_mm_fault
+            |
+            ---__handle_mm_fault
+               do_anonymous_page
+               |          
+               |--1.27%--vma_alloc_folio_noprof
+               |          alloc_pages_mpol
+               |          |          
+               |           --0.70%--__alloc_frozen_pages_noprof
+               |          
+                --0.97%--__mem_cgroup_charge
+                          |          
+                           --0.61%--charge_memcg
+
+     2.46%     0.00%  dsp_opt  [kernel.kallsyms]     [k] do_anonymous_page
+            |
+            ---do_anonymous_page
+               |          
+               |--1.27%--vma_alloc_folio_noprof
+               |          alloc_pages_mpol
+               |          |          
+               |           --0.70%--__alloc_frozen_pages_noprof
+               |          
+                --0.97%--__mem_cgroup_charge
+                          |          
+                           --0.61%--charge_memcg
+
+     1.49%     0.00%  dsp_opt  libc.so.6             [.] _fini
+            |
+            ---_fini
+               |          
+                --1.11%--asm_exc_page_fault
+                          |          
+                           --0.71%--exc_page_fault
+                                     do_user_addr_fault
+                                     handle_mm_fault
+                                     __handle_mm_fault
+                                     do_anonymous_page
+                                     vma_alloc_folio_noprof
+                                     alloc_pages_mpol
+
+     1.27%     0.20%  dsp_opt  [kernel.kallsyms]     [k] alloc_pages_mpol
+            |          
+             --1.06%--alloc_pages_mpol
+                       |          
+                        --0.70%--__alloc_frozen_pages_noprof
+
+     1.27%     0.00%  dsp_opt  [kernel.kallsyms]     [k] vma_alloc_folio_noprof
+            |
+            ---vma_alloc_folio_noprof
+               alloc_pages_mpol
+               |          
+                --0.70%--__alloc_frozen_pages_noprof
+
+     1.21%     0.00%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+               asm_exc_page_fault
+               exc_page_fault
+               |          
+                --0.95%--do_user_addr_fault
+                          handle_mm_fault
+                          __handle_mm_fault
+                          do_anonymous_page
+                          |          
+                           --0.61%--__mem_cgroup_charge
+                                     charge_memcg
+
+     0.97%     0.00%  dsp_opt  [kernel.kallsyms]     [k] __mem_cgroup_charge
+            |
+            ---__mem_cgroup_charge
+               |          
+                --0.61%--charge_memcg
+
+     0.90%     0.90%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+               _fini
+               _fini
+               _fini
+
+     0.90%     0.00%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+
+     0.71%     0.00%  dsp_opt  dsp_opt               [.] _fini
+            |
+            ---_fini
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               do_anonymous_page
+
+     0.70%     0.35%  dsp_opt  [kernel.kallsyms]     [k] __alloc_frozen_pages_noprof
+     0.61%     0.61%  dsp_opt  [kernel.kallsyms]     [k] charge_memcg
+            |
+            ---_fini
+               _fini
+               _fini
+               _fini
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               do_anonymous_page
+               __mem_cgroup_charge
+               charge_memcg
+
+     0.46%     0.46%  dsp_opt  dsp_opt               [.] _fini
+     0.46%     0.00%  dsp_opt  dsp_opt               [.] _fini
+     0.46%     0.46%  dsp_opt  dsp_opt               [.] _fini
+     0.46%     0.00%  dsp_opt  dsp_opt               [.] _fini
+     0.45%     0.45%  dsp_opt  dsp_opt               [.] _fini
+     0.45%     0.00%  dsp_opt  dsp_opt               [.] _fini
+     0.38%     0.38%  dsp_opt  [kernel.kallsyms]     [k] sync_regs
+     0.36%     0.36%  dsp_opt  [kernel.kallsyms]     [k] policy_nodemask
+     0.36%     0.36%  dsp_opt  [kernel.kallsyms]     [k] get_mem_cgroup_from_mm
+     0.35%     0.35%  dsp_opt  [kernel.kallsyms]     [k] clear_page_erms
+     0.34%     0.34%  dsp_opt  dsp_opt               [.] _fini
+     0.34%     0.00%  dsp_opt  dsp_opt               [.] _fini
+     0.26%     0.26%  dsp_opt  [kernel.kallsyms]     [k] irqentry_exit_to_user_mode
+     0.26%     0.00%  dsp_opt  [kernel.kallsyms]     [k] irqentry_exit
+     0.21%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.21%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.15%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.14%     0.14%  dsp_opt  [kernel.kallsyms]     [k] __folio_batch_add_and_move
+     0.14%     0.00%  dsp_opt  [kernel.kallsyms]     [k] folio_add_lru_vma
+     0.12%     0.00%  dsp_opt  [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+     0.12%     0.00%  dsp_opt  [kernel.kallsyms]     [k] do_syscall_64
+     0.12%     0.00%  dsp_opt  [kernel.kallsyms]     [k] x64_sys_call
+     0.09%     0.09%  dsp_opt  [kernel.kallsyms]     [k] _raw_spin_unlock
+     0.09%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.09%     0.00%  dsp_opt  libc.so.6             [.] _fini
+     0.06%     0.06%  dsp_opt  [kernel.kallsyms]     [k] kmem_cache_alloc_from_sheaf_noprof
+     0.06%     0.00%  dsp_opt  [unknown]             [k] _fini
+     0.06%     0.06%  dsp_opt  [kernel.kallsyms]     [k] fget
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] __x64_sys_execve
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] do_execveat_common.isra.0
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] bprm_execve
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] load_elf_binary
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] arch_setup_additional_pages
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] map_vdso
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] vdso_install_vvar_mapping
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] _install_special_mapping
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.06%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] insert_vm_struct
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] vma_link
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] mas_store_prealloc
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] __x64_sys_mmap
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] mas_wr_store_entry
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] ksys_mmap_pgoff
+     0.06%     0.00%  dsp_opt  [kernel.kallsyms]     [k] mas_wr_bnode
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+     0.06%     0.00%  dsp_opt  ld-linux-x86-64.so.2  [.] _fini
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

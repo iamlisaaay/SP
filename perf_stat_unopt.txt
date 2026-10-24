@@ -1,0 +1,20 @@
+
+ Performance counter stats for './dsp_unopt':
+
+        4657555289      task-clock                       #    0.999 CPUs utilized             
+                14      context-switches                 #    3.006 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              3132      page-faults                      #  672.456 /sec                      
+       26965473194      instructions                     #    1.48  insn per cycle            
+       18228403903      cycles                           #    3.914 GHz                       
+        1082451151      branches                         #  232.408 M/sec                     
+           1137277      branch-misses                    #    0.11% of all branches           
+        9695674263      L1-dcache-loads                  #    2.082 G/sec                     
+        1080523073      L1-dcache-load-misses            #   11.14% of all L1-dcache accesses 
+
+       4.664034727 seconds time elapsed
+
+       4.654520000 seconds user
+       0.003995000 seconds sys
+
+
